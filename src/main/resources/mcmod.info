@@ -1,0 +1,17 @@
+[
+    {
+        "modid": "nottheend",
+        "name": "NotTheEnd",
+        "description": "This mod aims to bring people back to the most under-utilized dimension of minecraft.",
+        "version": "1.0",
+        "credits": "To pahimar, for showing us the way.",
+        "logoFile": "",
+        "mcversion": "1.7.10",
+        "url": "",
+        "updateUrl": "",
+        "authors": ["hidetzugu"],
+        "parent": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]
