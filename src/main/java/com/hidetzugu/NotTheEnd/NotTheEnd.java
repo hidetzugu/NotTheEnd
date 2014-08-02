@@ -1,5 +1,6 @@
 package com.hidetzugu.NotTheEnd;
 
+import com.hidetzugu.NotTheEnd.Handlers.ConfigurationHandler;
 import com.hidetzugu.NotTheEnd.proxy.Iproxy;
 import com.hidetzugu.NotTheEnd.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -8,7 +9,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Reference.MOD_ID,name = Reference.MOD_NAME,version = Reference.MOD_VERSION)
+@Mod(modid = Reference.MOD_ID,name = Reference.MOD_NAME,version = Reference.MOD_VERSION,guiFactory = Reference.GUI_FACTORY_CLASS)
 public class NotTheEnd {
 
     @Mod.Instance(Reference.MOD_ID)
@@ -20,6 +21,7 @@ public class NotTheEnd {
     @Mod.EventHandler
     public void preinit(FMLPreInitializationEvent event){
 
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler
