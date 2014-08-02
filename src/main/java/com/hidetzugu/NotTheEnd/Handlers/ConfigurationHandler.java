@@ -16,12 +16,13 @@ public class ConfigurationHandler {
         //create the Configuration object from the config file
         if(configuration == null){
             configuration = new Configuration(configFile);
+            loadconfiguration();
         }
     }
 
     @SubscribeEvent
     public void OnConfigChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event){
-        //ConfigChangedEvent.OnConfigChangedEvent fires when the done button is pressed in Manylium's config GUI
+        //ConfigChangedEvent.OnConfigChangedEvent fires when the done button is pressed in bspkrs' config GUI
 
         if(event.modID.equalsIgnoreCase(Reference.MOD_ID)){
             loadconfiguration();
@@ -29,7 +30,7 @@ public class ConfigurationHandler {
 
     }
 
-    public void loadconfiguration(){
+    private static void loadconfiguration(){
         //loads the values from the config file (creating them with the default value if they are not there)
         configExample=configuration.getBoolean(Configuration.CATEGORY_GENERAL, "ConfigExample", true, "just an Example");
         //saves the file if it was changed
