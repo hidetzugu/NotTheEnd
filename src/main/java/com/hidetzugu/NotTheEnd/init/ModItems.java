@@ -16,7 +16,7 @@ public class ModItems {
 
         GameRegistry.registerItem(green_Ender_mold, itemGreenEnderMold.ITEM_ID);
         GameRegistry.registerItem(red_Ender_mold, itemRedEnderMold.ITEM_ID);
-        //GameRegistry.registerBlock(Ender_coal_ore,blockEnderCoalOre.)
+        //GameRegistry.registerBlock(Ender_coal_ore,blockEnderCoalCluster.)
 
     }
 }
