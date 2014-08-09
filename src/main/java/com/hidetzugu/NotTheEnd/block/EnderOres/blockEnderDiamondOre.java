@@ -1,4 +1,4 @@
-package com.hidetzugu.NotTheEnd.block.Ores;
+package com.hidetzugu.NotTheEnd.block.EnderOres;
 
 import com.hidetzugu.NotTheEnd.block.blockNotTheEnd;
 
@@ -12,3 +12,4 @@ public class blockEnderDiamondOre extends blockNotTheEnd {
 
     public static final String BLOCK_ID = "Ender_diamond_ore";
 }
+

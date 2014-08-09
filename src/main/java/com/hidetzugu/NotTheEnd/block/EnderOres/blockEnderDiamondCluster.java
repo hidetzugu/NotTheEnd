@@ -1,4 +1,4 @@
-package com.hidetzugu.NotTheEnd.block.Clusters;
+package com.hidetzugu.NotTheEnd.block.EnderOres;
 
 import com.hidetzugu.NotTheEnd.block.blockNotTheEnd;
 

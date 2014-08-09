@@ -1,10 +1,11 @@
-package com.hidetzugu.NotTheEnd.block.Ores;
+package com.hidetzugu.NotTheEnd.block.EnderOres;
 
 import com.hidetzugu.NotTheEnd.block.blockNotTheEnd;
 
-public class blockEnderCoalOre extends blockNotTheEnd{
+public class blockEnderCoalOre extends blockNotTheEnd {
 
     public blockEnderCoalOre(){
+
         super();
         this.setBlockName(BLOCK_ID);
     }

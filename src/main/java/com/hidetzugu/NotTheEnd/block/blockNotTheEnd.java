@@ -1,5 +1,6 @@
 package com.hidetzugu.NotTheEnd.block;
 
+import com.hidetzugu.NotTheEnd.creativetab.CreativeTabNotTheEnd;
 import com.hidetzugu.NotTheEnd.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -11,10 +12,11 @@ public class blockNotTheEnd extends Block{
 
     public blockNotTheEnd(Material material) {
         super(material);
+        this.setCreativeTab(CreativeTabNotTheEnd.NotTheEnd_Tab);
     }
 
     public blockNotTheEnd(){
-        //defautl constructor creates an item of the type rock
+        //default constructor creates an item of the type rock
         this(Material.rock);
     }
 

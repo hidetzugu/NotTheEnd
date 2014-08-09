@@ -28,6 +28,7 @@ public class NotTheEnd {
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         ModItems.init();
         ModBlocks.init();
+
     }
 
     @Mod.EventHandler

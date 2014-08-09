@@ -1,5 +1,6 @@
 package com.hidetzugu.NotTheEnd.item;
 
+import com.hidetzugu.NotTheEnd.creativetab.CreativeTabNotTheEnd;
 import com.hidetzugu.NotTheEnd.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class itemNotTheEnd extends Item {
     public itemNotTheEnd(){
         //calls the Item constructor from minecraft
         super();
+        this.setCreativeTab(CreativeTabNotTheEnd.NotTheEnd_Tab);
     }
 
     @Override

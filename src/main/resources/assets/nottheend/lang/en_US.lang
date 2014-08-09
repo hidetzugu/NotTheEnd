@@ -3,8 +3,12 @@ item.nottheend:green_Ender_mold.name=green Ender mold
 
 tile.nottheend:Ender_iron_ore.name=Ender iron ore
 tile.nottheend:Ender_gold_ore.name=Ender gold ore
+tile.nottheend:Ender_coal_ore.name=Ender coal ore
+tile.nottheend:Ender_diamond_ore.name=Ender diamond ore
+tile.nottheend:Ender_emerald_ore.name=Ender emerald ore
+tile.nottheend:Ender_redstone_ore.name=Ender redstone ore
 tile.nottheend:Ender_lapis_ore.name=Ender lapis ore
 tile.nottheend:Ender_coal_cluster.name=Ender coal cluster
 tile.nottheend:Ender_diamond_cluster.name=Ender diamond cluster
-tile.nottheend:Ender_redstone_cluster.name=Ender redstone cluster
 tile.nottheend:Ender_emerald_cluster.name=Ender emerald cluster
+tile.nottheend:Ender_redstone_cluster.name=Ender redstone cluster
