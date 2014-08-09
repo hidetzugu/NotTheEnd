@@ -40,5 +40,4 @@ public class NotTheEnd {
     public void postinit(FMLPostInitializationEvent event){
 
     }
-
 }
