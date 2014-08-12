@@ -42,6 +42,5 @@ public class ModBlocks {
         GameRegistry.registerBlock(Ender_emerald_cluster, blockEnderEmeraldCluster.BLOCK_ID);
         GameRegistry.registerBlock(Ender_redstone_cluster, blockEnderRedstoneCluster.BLOCK_ID);
 
-
     }
 }
