@@ -38,10 +38,7 @@ public class NotTheEnd {
     public void init(FMLInitializationEvent event){
 
         OreRegistration.RegisterOres();
-        for(String orename : OreDictionary.getOreNames()){
-            LogHelper.info(orename+": "+OreDictionary.getOres(orename));
-
-        }
+        OreRegistration.RegisterSmelting();
     }
 
     @Mod.EventHandler
