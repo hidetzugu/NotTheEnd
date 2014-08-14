@@ -39,7 +39,7 @@ public class NotTheEnd {
 
         OreRegistration.RegisterOres();
         for(String orename : OreDictionary.getOreNames()){
-            LogHelper.info(orename);
+            LogHelper.info(orename+": "+OreDictionary.getOres(orename));
 
         }
     }
