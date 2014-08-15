@@ -1,10 +1,6 @@
 package com.hidetzugu.NotTheEnd.init;
 
-import com.hidetzugu.NotTheEnd.block.EnderOres.blockEnderDiamondCluster;
-import com.hidetzugu.NotTheEnd.block.EnderOres.blockEnderRedstoneCluster;
 import com.hidetzugu.NotTheEnd.block.EnderOres.*;
-import com.hidetzugu.NotTheEnd.block.EnderOres.blockEnderCoalCluster;
-import com.hidetzugu.NotTheEnd.block.EnderOres.blockEnderEmeraldCluster;
 import com.hidetzugu.NotTheEnd.block.blockNotTheEnd;
 import com.hidetzugu.NotTheEnd.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;

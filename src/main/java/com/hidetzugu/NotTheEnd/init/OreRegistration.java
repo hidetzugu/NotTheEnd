@@ -1,20 +1,9 @@
 package com.hidetzugu.NotTheEnd.init;
 
-import com.hidetzugu.NotTheEnd.block.EnderOres.blockEnderCoalOre;
-import com.hidetzugu.NotTheEnd.item.itemGreenEnderMold;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemBed;
-import net.minecraft.item.ItemBucket;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraftforge.oredict.OreDictionary;
-import scala.swing.ListView;
-import scala.tools.nsc.typechecker.Typers;
-
-import javax.swing.plaf.basic.BasicComboBoxUI;
 
 public class OreRegistration {
 
