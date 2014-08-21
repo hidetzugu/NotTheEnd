@@ -3,6 +3,7 @@ package com.hidetzugu.NotTheEnd;
 import com.hidetzugu.NotTheEnd.Handlers.ConfigurationHandler;
 import com.hidetzugu.NotTheEnd.init.ModBlocks;
 import com.hidetzugu.NotTheEnd.init.ModItems;
+import com.hidetzugu.NotTheEnd.init.ModRecipes;
 import com.hidetzugu.NotTheEnd.init.OreRegistration;
 import com.hidetzugu.NotTheEnd.proxy.Iproxy;
 import com.hidetzugu.NotTheEnd.reference.Reference;
@@ -36,7 +37,7 @@ public class NotTheEnd {
     public void init(FMLInitializationEvent event){
 
         OreRegistration.RegisterOres();
-        OreRegistration.RegisterSmelting();
+        ModRecipes.RegisterSmelting();
     }
 
     @Mod.EventHandler
