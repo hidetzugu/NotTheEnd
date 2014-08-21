@@ -5,6 +5,7 @@ import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import java.util.Random;
 
+
 public class blockEnderLapisOre extends blockNotTheEnd {
 
     public blockEnderLapisOre(){
@@ -32,7 +33,11 @@ public class blockEnderLapisOre extends blockNotTheEnd {
 
     @Override
     public int quantityDropped(int metadata, int fortune, Random random){
+        //this keeps the lapis drop similar to vanilla
+        int fortunebonus=random.nextInt(fortune+2)-1;
+        if(fortunebonus<0)
+            fortunebonus=0;
 
-        return 4+random.nextInt(5);
+        return (4+random.nextInt(5))*(fortunebonus+1);
     }
 }

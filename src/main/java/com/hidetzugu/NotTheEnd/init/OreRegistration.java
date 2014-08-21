@@ -32,12 +32,12 @@ public class OreRegistration {
         GameRegistry.addSmelting(ModBlocks.Ender_gold_ore,new ItemStack(Items.gold_ingot,1),1.0f);
         //minerals
         GameRegistry.addSmelting(ModBlocks.Ender_redstone_ore,new ItemStack(Items.redstone,3),1.0f);
-        GameRegistry.addSmelting(ModBlocks.Ender_redstone_cluster,new ItemStack(Items.redstone,5),1.0f);
+        GameRegistry.addSmelting(ModBlocks.Ender_redstone_cluster,new ItemStack(Items.redstone,3),1.0f);
 
         GameRegistry.addSmelting(ModBlocks.Ender_diamond_ore,new ItemStack(Items.diamond,1),1.0f);
-        GameRegistry.addSmelting(ModBlocks.Ender_diamond_cluster,new ItemStack(Items.diamond,2),1.0f);
+        GameRegistry.addSmelting(ModBlocks.Ender_diamond_cluster,new ItemStack(Items.diamond,1),1.0f);
         GameRegistry.addSmelting(ModBlocks.Ender_emerald_ore,new ItemStack(Items.emerald,1),1.0f);
-        GameRegistry.addSmelting(ModBlocks.Ender_emerald_cluster,new ItemStack(Items.emerald,2),1.0f);
+        GameRegistry.addSmelting(ModBlocks.Ender_emerald_cluster,new ItemStack(Items.emerald,1),1.0f);
             //lapiz (the item) does NOT has a specific item object; instead its a dye object with meta-data 4
         GameRegistry.addSmelting(ModBlocks.Ender_lapis_ore,new ItemStack(Items.dye,3,4),1.0f);
 
