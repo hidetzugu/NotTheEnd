@@ -26,6 +26,7 @@ public class blockEnderEmeraldCluster extends blockNotTheEnd{
     public Item getItemDropped(int metadata, Random random, int fortune){
 
         return Items.emerald;
+        
     }
 
     @Override
