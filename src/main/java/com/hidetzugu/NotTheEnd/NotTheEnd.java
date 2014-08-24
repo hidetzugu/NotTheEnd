@@ -1,6 +1,7 @@
 package com.hidetzugu.NotTheEnd;
 
 import com.hidetzugu.NotTheEnd.Handlers.ConfigurationHandler;
+import com.hidetzugu.NotTheEnd.WorldGen.EnderOresGen;
 import com.hidetzugu.NotTheEnd.init.ModBlocks;
 import com.hidetzugu.NotTheEnd.init.ModItems;
 import com.hidetzugu.NotTheEnd.init.ModRecipes;
@@ -13,6 +14,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID,name = Reference.MOD_NAME,version = Reference.MOD_VERSION,guiFactory = Reference.GUI_FACTORY_CLASS)
 public class NotTheEnd {
@@ -38,6 +40,8 @@ public class NotTheEnd {
 
         OreRegistration.RegisterOres();
         ModRecipes.RegisterSmelting();
+
+        GameRegistry.registerWorldGenerator(new EnderOresGen(),0);
     }
 
     @Mod.EventHandler

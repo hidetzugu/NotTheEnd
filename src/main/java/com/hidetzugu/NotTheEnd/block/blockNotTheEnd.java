@@ -8,7 +8,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 
-public class blockNotTheEnd extends Block{
+public class blockNotTheEnd extends Block {
 
     public blockNotTheEnd(Material material) {
         super(material);

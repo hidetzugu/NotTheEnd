@@ -1,8 +1,13 @@
 package com.hidetzugu.NotTheEnd.block.EnderOres;
 
 import com.hidetzugu.NotTheEnd.block.blockNotTheEnd;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.boss.EntityDragon;
+import net.minecraft.world.IBlockAccess;
 
 public class blockEnderIronOre extends blockNotTheEnd {
+
+    public static final String BLOCK_ID = "Ender_iron_ore";
 
     public blockEnderIronOre(){
 
@@ -13,5 +18,9 @@ public class blockEnderIronOre extends blockNotTheEnd {
         this.setHarvestLevel("pickaxe",1);
     }
 
-    public static final String BLOCK_ID = "Ender_iron_ore";
+    @Override
+    public boolean canEntityDestroy(IBlockAccess world, int x, int y, int z, Entity entity){
+
+        return !(entity instanceof EntityDragon);
+    }
 }
