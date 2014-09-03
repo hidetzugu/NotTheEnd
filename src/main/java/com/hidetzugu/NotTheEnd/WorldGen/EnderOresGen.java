@@ -36,14 +36,58 @@ public class EnderOresGen implements IWorldGenerator{
     }
 
     private void generateEnd(World world, Random random, int ChunkX, int ChunkZ){
-
-        for(int k=0;k<100;++k){
-            int testblockX= ChunkX + random.nextInt(16);
-            int testblockZ= ChunkZ + random.nextInt(16);
-            int testblockY= random.nextInt(128);
-
-            (new WorldGenMinable(ModBlocks.Ender_emerald_ore,50, Blocks.end_stone)).generate(world,random,testblockX,testblockY,testblockZ);
-
+        /*  This function adds ores the The End's generation
+        *   Each for cycle is used for a different ore (higher k=more veins
+        *   The int argument in WorldGenMinable is representative of vein size
+        */
+        for(int k=0;k<10;++k){
+            int blockX= ChunkX + random.nextInt(16);
+            int blockZ= ChunkZ + random.nextInt(16);
+            int blockY= random.nextInt(128);
+            (new WorldGenMinable(ModBlocks.Ender_emerald_ore,7, Blocks.end_stone)).generate(world,random,blockX,blockY,blockZ);
+        }
+        for(int k=0;k<10;++k){
+            int blockX= ChunkX + random.nextInt(16);
+            int blockZ= ChunkZ + random.nextInt(16);
+            int blockY= random.nextInt(128);
+            (new WorldGenMinable(ModBlocks.Ender_diamond_ore,7, Blocks.end_stone)).generate(world,random,blockX,blockY,blockZ);
+        }
+        for(int k=0;k<4;++k){
+            int blockX= ChunkX + random.nextInt(16);
+            int blockZ= ChunkZ + random.nextInt(16);
+            int blockY= random.nextInt(128);
+            (new WorldGenMinable(ModBlocks.Ender_emerald_cluster,7, Blocks.end_stone)).generate(world,random,blockX,blockY,blockZ);
+        }
+        for(int k=0;k<4;++k){
+            int blockX= ChunkX + random.nextInt(16);
+            int blockZ= ChunkZ + random.nextInt(16);
+            int blockY= random.nextInt(128);
+            (new WorldGenMinable(ModBlocks.Ender_diamond_cluster,7, Blocks.end_stone)).generate(world,random,blockX,blockY,blockZ);
+        }
+        for(int k=0;k<25;++k){
+            int blockX= ChunkX + random.nextInt(16);
+            int blockZ= ChunkZ + random.nextInt(16);
+            int blockY= random.nextInt(128);
+            (new WorldGenMinable(ModBlocks.Ender_coal_ore,12, Blocks.end_stone)).generate(world,random,blockX,blockY,blockZ);
+        }
+        for(int k=0;k<10;++k){
+            int blockX= ChunkX + random.nextInt(16);
+            int blockZ= ChunkZ + random.nextInt(16);
+            int blockY= random.nextInt(128);
+            (new WorldGenMinable(ModBlocks.Ender_coal_cluster,7, Blocks.end_stone)).generate(world,random,blockX,blockY,blockZ);
+        }
+        for(int k=0;k<25;++k){
+            int blockX= ChunkX + random.nextInt(16);
+            int blockZ= ChunkZ + random.nextInt(16);
+            int blockY= random.nextInt(128);
+            (new WorldGenMinable(ModBlocks.Ender_iron_ore,12, Blocks.end_stone)).generate(world,random,blockX,blockY,blockZ);
+        }
+        for(int k=0;k<25;++k){
+            int blockX= ChunkX + random.nextInt(16);
+            int blockZ= ChunkZ + random.nextInt(16);
+            int blockY= random.nextInt(128);
+            (new WorldGenMinable(ModBlocks.Ender_gold_ore,12, Blocks.end_stone)).generate(world,random,blockX,blockY,blockZ);
         }
     }
+
 }
