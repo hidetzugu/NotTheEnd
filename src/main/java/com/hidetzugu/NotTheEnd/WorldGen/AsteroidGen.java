@@ -47,11 +47,13 @@ public class AsteroidGen implements IWorldGenerator {
 
     public void generateSmallAsteroid(World world, Random random, int ChunkX, int ChunkZ){
 
-        int testblockX= ChunkX + random.nextInt(16);
-        int testblockZ= ChunkZ + random.nextInt(16);
-        int testblockY= 12 + random.nextInt(128);
+        int blockX= ChunkX + random.nextInt(16);
+        int blockZ= ChunkZ + random.nextInt(16);
+        int blockY= 12 + random.nextInt(200);
 
-        (new WorldGenMinable(Blocks.end_stone,50, Blocks.air)).generate(world, random, testblockX, testblockY, testblockZ);
+        int asteroidsize= 12 + random.nextInt(200);
+
+        (new WorldGenMinable(Blocks.end_stone,asteroidsize, Blocks.air)).generate(world, random, blockX, blockY, blockZ);
 
     }
 
