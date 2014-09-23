@@ -8,6 +8,7 @@ public class ProvidersHandler {
     public static void init(){
 
         unregisterProviders();
+        registerProviders();
 
     }
 

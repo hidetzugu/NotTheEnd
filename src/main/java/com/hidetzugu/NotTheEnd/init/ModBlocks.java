@@ -1,6 +1,7 @@
 package com.hidetzugu.NotTheEnd.init;
 
 import com.hidetzugu.NotTheEnd.block.EnderOres.*;
+import com.hidetzugu.NotTheEnd.block.blockCrystalSpawner;
 import com.hidetzugu.NotTheEnd.block.blockNotTheEnd;
 import com.hidetzugu.NotTheEnd.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -21,6 +22,8 @@ public class ModBlocks {
     public static final blockNotTheEnd Ender_diamond_cluster = new blockEnderDiamondCluster();
     public static final blockNotTheEnd Ender_emerald_cluster = new blockEnderEmeraldCluster();
     public static final blockNotTheEnd Ender_redstone_cluster = new blockEnderRedstoneCluster();
+    //other stuff
+    public static final blockNotTheEnd Crystal_Spawner = new blockCrystalSpawner();
 
     public static void init(){
 
@@ -37,6 +40,8 @@ public class ModBlocks {
         GameRegistry.registerBlock(Ender_diamond_cluster, blockEnderDiamondCluster.BLOCK_ID);
         GameRegistry.registerBlock(Ender_emerald_cluster, blockEnderEmeraldCluster.BLOCK_ID);
         GameRegistry.registerBlock(Ender_redstone_cluster, blockEnderRedstoneCluster.BLOCK_ID);
+        //other stuff
+        GameRegistry.registerBlock(Crystal_Spawner, blockCrystalSpawner.BLOCK_ID);
 
     }
 }

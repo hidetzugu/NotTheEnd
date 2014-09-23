@@ -42,7 +42,7 @@ public class NotTheEnd {
         OreRegistration.RegisterOres();
         ModRecipes.RegisterSmelting();
 
-        //ProvidersHandler.init();
+        ProvidersHandler.init();
 
         WorldGenRegistry.RegisterWorldGen();
 

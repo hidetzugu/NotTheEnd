@@ -1,7 +1,7 @@
 NotTheEnd
 =========
 
-The purpose of this mod is bring life to the most unused dimension of minecraft.
+The purpose of this mod is to bring life to the most unused dimension of minecraft.
 
 NotTheEnd is still under VERY early development and we will make an anouncement in the minecraft/feed the beast forums as soon as we have something worth showing. However, if you somehow tripped on this repository and wish to leave any comments or sugestions you are more than welcome to do so.
 
