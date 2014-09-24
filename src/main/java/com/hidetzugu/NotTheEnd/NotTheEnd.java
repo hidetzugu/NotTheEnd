@@ -2,6 +2,7 @@ package com.hidetzugu.NotTheEnd;
 
 import com.hidetzugu.NotTheEnd.Handlers.ConfigurationHandler;
 import com.hidetzugu.NotTheEnd.Handlers.ProvidersHandler;
+import com.hidetzugu.NotTheEnd.Handlers.replacementsHandler;
 import com.hidetzugu.NotTheEnd.WorldGen.WorldGenRegistry;
 import com.hidetzugu.NotTheEnd.init.ModBlocks;
 import com.hidetzugu.NotTheEnd.init.ModItems;
@@ -42,7 +43,7 @@ public class NotTheEnd {
         OreRegistration.RegisterOres();
         ModRecipes.RegisterSmelting();
 
-        ProvidersHandler.init();
+        replacementsHandler.ProviderHandler();
 
         WorldGenRegistry.RegisterWorldGen();
 

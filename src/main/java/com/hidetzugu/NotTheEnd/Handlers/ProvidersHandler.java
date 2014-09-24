@@ -1,6 +1,6 @@
 package com.hidetzugu.NotTheEnd.Handlers;
 
-import com.hidetzugu.NotTheEnd.WorldGen.WorldProviderNotTheEnd;
+import com.hidetzugu.NotTheEnd.WorldGen.VanillaReplacements.WorldProviderNotTheEnd;
 import net.minecraftforge.common.DimensionManager;
 
 public class ProvidersHandler {
