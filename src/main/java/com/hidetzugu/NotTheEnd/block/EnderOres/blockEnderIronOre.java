@@ -16,6 +16,7 @@ public class blockEnderIronOre extends blockNotTheEnd {
         this.setHardness(3.0f);
         this.setResistance(14.0f);
         this.setHarvestLevel("pickaxe",1);
+        this.textureName="blockEnderIronOre";
     }
 
     @Override

@@ -3,6 +3,7 @@ itemGroup.nottheend=NotTheEnd
 item.nottheend:red_Ender_mold.name=red Ender mold
 item.nottheend:green_Ender_mold.name=green Ender mold
 item.nottheend:blue_Ender_mold.name=blue Ender mold
+item.nottheend:Teleport_Gun.name=Teleport Gun
 
 tile.nottheend:Ender_iron_ore.name=Ender iron ore
 tile.nottheend:Ender_gold_ore.name=Ender gold ore

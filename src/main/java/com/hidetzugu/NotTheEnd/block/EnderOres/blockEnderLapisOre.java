@@ -19,6 +19,7 @@ public class blockEnderLapisOre extends blockNotTheEnd {
         this.setHardness(3.0f);
         this.setResistance(14.0f);
         this.setHarvestLevel("pickaxe",1);
+        this.textureName="blockEnderLapisOre";
     }
 
     public static final String BLOCK_ID = "Ender_lapis_ore";

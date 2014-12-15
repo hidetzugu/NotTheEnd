@@ -7,7 +7,7 @@ NotTheEnd is still under VERY early development and we will make an anouncement 
 
 On our initial TODO list are:
 
-- Changing The End's terrain to be composed of an evergrowing asteroid bell, instead of just one in the middle.
+- Changing The End's terrain to be composed of an evergrowing asteroid belt, instead of just one in the middle.
 
 - Changing The End portal mechanics so that the portals work both ways.
 

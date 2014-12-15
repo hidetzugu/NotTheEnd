@@ -24,6 +24,7 @@ public class ModBlocks {
     public static final blockNotTheEnd Ender_redstone_cluster = new blockEnderRedstoneCluster();
     //other stuff
     public static final blockNotTheEnd Crystal_Spawner = new blockCrystalSpawner();
+    public static final blockNotTheEnd Temp = new blockEnderLapisOre();
 
     public static void init(){
 

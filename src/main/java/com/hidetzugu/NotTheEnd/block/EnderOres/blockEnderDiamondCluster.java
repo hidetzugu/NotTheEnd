@@ -18,6 +18,7 @@ public class blockEnderDiamondCluster extends blockNotTheEnd {
         this.setHardness(3.0f);
         this.setResistance(14.0f);
         this.setHarvestLevel("pickaxe",2);
+        this.textureName="blockEnderDiamondCluster";
     }
 
     public static final String BLOCK_ID = "Ender_diamond_cluster";
