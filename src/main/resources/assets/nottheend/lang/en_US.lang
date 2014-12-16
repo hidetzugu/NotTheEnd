@@ -16,4 +16,5 @@ tile.nottheend:Ender_coal_cluster.name=Ender coal cluster
 tile.nottheend:Ender_diamond_cluster.name=Ender diamond cluster
 tile.nottheend:Ender_emerald_cluster.name=Ender emerald cluster
 tile.nottheend:Ender_redstone_cluster.name=Ender redstone cluster
+tile.nottheend:Obsidian_Brick.name=Obsidian Brick
 tile.nottheend:Crystal_Spawner.name=Ender Crystal Spawner

@@ -6,7 +6,6 @@ import net.minecraft.entity.boss.EntityDragon;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.world.IBlockAccess;
-
 import java.util.Random;
 
 public class blockEnderCoalCluster extends blockNotTheEnd{
